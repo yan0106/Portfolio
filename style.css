@@ -1,19 +1,33 @@
+/*navbar*/
 
-nav a {
-    color: pink;
+.icono {
+    font-size: 1.5rem;
+    color: grey;   
 }
+
+/*banner*/
+
+.portada {
+    width: 90rem;
+    height: 25rem;
+}
+
+.cara {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    right: 73rem;
+}
+
+/*article*/
 
 article a {
     color:black;
 }
 
-footer a {
-    color:black;
-}
 
-img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-}
+
+
 
