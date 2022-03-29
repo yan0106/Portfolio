@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing:border-box;
 }
-/* normalizar el css: darle estilos básicos a los componentes para pisar los estilos que vienen por default en los navegadores) */
+/* normalizar el css: darle estilos básicos a los componentes para pisar los estilos que vienen por default en los navegadores. */
 /* lo que hacemos acá, es ponerle a todos los elementos del documento un margin y padding 0 y con box-sizing le decímos al documento
  que el borde de cada div sea el de la caja y no el del contenido. */
 
