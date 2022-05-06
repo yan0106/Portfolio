@@ -7,18 +7,29 @@
 /* lo que hacemos acá, es ponerle a todos los elementos del documento un margin y padding 0 y con box-sizing le decímos al documento
  que el borde de cada div sea el de la caja y no el del contenido. */
 
-/*navbar*/
+body {
+    background-color: rgb(114, 158, 211);
+    /*background-color: whitesmoke;*/
+}
 
+/*navbar*/
 .icono {
     font-size: 1.5rem;
     color: grey;   
 }
 
-/*banner*/
+/*iconos - cómo separar los iconos entre si?*/
+.iconos {
+    display: flex;
+    justify-content: space-between;
+}
 
+/*banner*/
 .portada {
     width: 90rem;
-    height: 25rem;
+    height: 23rem;
+    margin-top: 1rem;
+    position: relative;
 }
 
 .cara {
@@ -26,14 +37,53 @@
     height: 9rem;
     border-radius: 50%;
     position: absolute;
-    top: 25rem;
-    right: 73rem;
+    top: 22rem;
+    right: 73rem;    
 }
 
-/*article*/
+/*presentacion*/
+.nombre {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.presentacion {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.articulo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3 {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+h5 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-left: 1rem;    
+}
+
+h4 {
+    margin-top: 1rem;
+    margin-left: 1rem;     
+}
 
 article a {
     color:black;
+    margin-top: 1rem;
+    margin-left: 1rem; 
 }
 
 
